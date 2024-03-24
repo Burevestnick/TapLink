@@ -134,3 +134,9 @@ body {
 .button.hh {
   background-color: #d6001c;
 }
+
+.devby {
+  color: rgb(224, 223, 223);
+  text-align: center;
+  font-size: 12px;
+}
