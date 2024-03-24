@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -74,4 +75,62 @@ body {
   font-weight: 600;
   line-height: 17px;
   margin-top: -9px;
+}
+
+.card {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.button-icons {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 7px;
+}
+
+.button {
+  background-color: black;
+  display: flex;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  gap: 5px;
+  margin-bottom: 6px;
+}
+
+.button.Vk {
+  background-color: rgb(78, 128, 185);
+}
+
+.button.Tg {
+  background-color: rgb(80, 184, 236);
+}
+
+.button.Yt {
+  background-color: red;
+}
+
+.button.gh {
+  background-color: black;
+}
+
+.button.hh {
+  background-color: #d6001c;
 }
